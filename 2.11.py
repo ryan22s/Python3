@@ -1,0 +1,8 @@
+apples = int(input("Enter integer (0 - 155): \n"))
+oranges = float(input("Enter float: \n"))
+bananas = str(input("Enter character: \n"))
+papayas = str(input("Enter string: \n"))
+print(f"{apples} {oranges} {bananas} {papayas}")
+print(f"{papayas} {bananas} {oranges} {apples}")
+limes = chr(apples)
+print(f"{apples} converted to a character is {limes}")

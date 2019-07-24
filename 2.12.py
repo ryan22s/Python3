@@ -1,0 +1,20 @@
+a = float(input("Enter amount of lemon juice (in cups): \n"))
+b = float(input("Enter amount of water (in cups): \n"))
+c = float(input("Enter amount of agave nectar (in cups): \n"))
+d = float(input("How many servings does this make? \n\n"))
+print(f"Lemonade ingredients - yields {d} servings")
+print(a, "cup(s) lemon juice")
+print(b, "cup(s) water")
+print(c, "cup(s) agave nectar\n")
+e = float(input("How many servings would you like to make? \n"))
+n = e/d
+print(f"\nLemonade ingredients - yields {e} servings")
+print(f"{n*a} cup(s) lemon juice")
+print(f"{n*b} cup(s) water")
+print(f"{n*c} cup(s) agave nectar\n")
+print(f"Lemonade ingredients - yields {e} servings")
+gal = 0.0625
+print(f"{(n*a)*gal} gallon(s) lemon juice")
+print(f"{n*b*gal} gallon(s) water")
+print(f"{n*c*gal} gallon(s) agave nectar\n")
+
